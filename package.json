@@ -78,8 +78,7 @@
     "url": "https://github.com/otalk/stanza.io.git"
   },
   "scripts": {
-    "build": "make build",
-    "lint": "jshint ."
+    "build": "make build"
   },
   "pre-commit": [
     "lint",
