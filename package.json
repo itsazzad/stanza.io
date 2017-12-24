@@ -1,7 +1,7 @@
 {
   "name": "stanza.io",
   "description": "Modern XMPP in the browser, with a JSON API",
-  "version": "8.4.9",
+  "version": "9.0.1",
   "author": "Lance Stout <lancestout@gmail.com>",
   "browser": {
     "request": "xhr",
@@ -26,7 +26,7 @@
     "alt-sasl-digest-md5": "^1.0.0",
     "async": "^2.5.0",
     "browserify-versionify": "^1.0.4",
-    "faye-websocket": "^0.10.0",
+    "faye-websocket": "^0.11.0",
     "hostmeta": "^2.0.0",
     "iana-hashes": "^1.0.2",
     "jingle": "file:../jingle.js",
