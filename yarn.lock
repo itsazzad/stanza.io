@@ -966,7 +966,7 @@ jingle-filetransfer-session@^2.0.0:
   dependencies:
     extend-object "^1.0.0"
     jingle-session "^2.0.0"
-    rtcpeerconnection "file:../../../../../../Library/Caches/Yarn/v1/rtcpeerconnection"
+    rtcpeerconnection "^8.0.0"
 
 jingle-session@^2.0.0:
   version "2.0.3"
@@ -1055,12 +1055,13 @@ jxt-xmpp-types@^3.0.0:
     xmpp-constants "^2.0.0"
     xmpp-jid "^1.0.2"
 
-"jxt-xmpp@file:../jxt-xmpp":
-  version "3.0.0"
+jxt-xmpp@^2.0.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/jxt-xmpp/-/jxt-xmpp-2.4.0.tgz#77bfe64b63376d24a079dca9c1ab6ad221c00b66"
   dependencies:
     babel-runtime "^5.6.15"
     lodash.foreach "^3.0.3"
-    xmpp-constants "file:../../../../../../Library/Caches/Yarn/v1/xmpp-constants"
+    xmpp-constants "^2.0.0"
     xmpp-jid "^1.1.1"
 
 jxt@^3.0.1:
@@ -1664,13 +1665,6 @@ rtcpeerconnection@^8.0.0:
     sdp-jingle-json "^3.0.0"
     wildemitter "1.x"
 
-"rtcpeerconnection@file:../rtcpeerconnection":
-  version "8.0.1"
-  dependencies:
-    lodash.clonedeep "^4.3.2"
-    sdp-jingle-json "^3.0.0"
-    wildemitter "1.x"
-
 safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@^5.1.1, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.1.tgz#893312af69b2123def71f57889001671eeb2c853"
@@ -2028,8 +2022,9 @@ xhr@^2.0.1:
     parse-headers "^2.0.0"
     xtend "^4.0.0"
 
-xmpp-constants@^2.0.0, "xmpp-constants@file:../xmpp-constants":
+xmpp-constants@^2.0.0:
   version "2.4.0"
+  resolved "https://registry.yarnpkg.com/xmpp-constants/-/xmpp-constants-2.4.0.tgz#b8fe5b8005ab05db6736586d7c5a6596af7ac8e1"
 
 xmpp-jid@^1.0.0, xmpp-jid@^1.0.2, xmpp-jid@^1.1.1:
   version "1.2.3"
