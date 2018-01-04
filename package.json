@@ -29,7 +29,7 @@
     "faye-websocket": "^0.10.0",
     "hostmeta": "^2.0.0",
     "iana-hashes": "^1.0.2",
-    "jingle": "file:../jingle.js",
+    "jingle": "^3.0.0",
     "jxt": "^3.0.1",
     "jxt-xmpp": "^2.0.0",
     "jxt-xmpp-types": "^3.0.0",
@@ -80,7 +80,8 @@
   "scripts": {
     "build": "make build",
     "test": "make test",
-    "lint": "jshint ."
+    "lint": "jshint .",
+    "validate": "npm ls"
   },
   "pre-commit": [
     "lint",
