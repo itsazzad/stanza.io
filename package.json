@@ -30,6 +30,7 @@
     "hostmeta": "^2.0.0",
     "iana-hashes": "^1.0.2",
     "jingle": "git+https://github.com/itsazzad/jingle.js.git#v3.0.3.0",
+    "jingle-session": "git+https://github.com/itsazzad/jingle-session.git#e6f909a56a1915083096e2dcfe1a83efbc0e9b9d",
     "jxt": "^3.0.1",
     "jxt-xmpp": "^2.0.0",
     "jxt-xmpp-types": "^3.0.0",
