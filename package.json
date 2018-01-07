@@ -79,11 +79,10 @@
   },
   "scripts": {
     "build": "make build",
-    "lint": "jshint ."
+    "test": "make test",
+    "lint": "jshint .",
+    "validate": "npm ls"
   },
   "pre-commit": [
-    "lint",
-    "validate",
-    "test"
   ]
 }
