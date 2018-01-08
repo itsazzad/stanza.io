@@ -17,10 +17,11 @@
       ]
     ]
   },
-  "bugs": "https://github.com/otalk/stanza.io/issues",
+  "bugs": "https://github.com/itsazzad/stanza.io/issues",
   "contributors": [
     "Philipp Hancke <fippo@andyet.net>",
-    "Steven Lloyd Watkin <lloyd@evilprofessor.co.uk>"
+    "Steven Lloyd Watkin <lloyd@evilprofessor.co.uk>",
+    "Sazzad Hossain Khan <itsazzad@gmail.com>"
   ],
   "dependencies": {
     "alt-sasl-digest-md5": "^1.0.0",
@@ -29,7 +30,7 @@
     "faye-websocket": "^0.10.0",
     "hostmeta": "^2.0.0",
     "iana-hashes": "^1.0.2",
-    "jingle": "git+https://github.com/itsazzad/jingle.js.git#v3.0.3.0",
+    "jingle": "git+https://github.com/itsazzad/jingle.js.git",
     "jxt": "^3.0.1",
     "jxt-xmpp": "^2.0.0",
     "jxt-xmpp-types": "^3.0.0",
@@ -75,7 +76,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/otalk/stanza.io.git"
+    "url": "https://github.com/itsazzad/stanza.io.git"
   },
   "scripts": {
     "build": "make build",
