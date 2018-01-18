@@ -30,7 +30,7 @@
     "faye-websocket": "^0.10.0",
     "hostmeta": "^2.0.0",
     "iana-hashes": "^1.0.2",
-    "jingle": "git+https://github.com/itsazzad/jingle.js.git#v3.0.3.2",
+    "jingle": "git+https://github.com/itsazzad/jingle.js.git#v3.0.3-2",
     "jxt": "^3.0.1",
     "jxt-xmpp": "^2.0.0",
     "jxt-xmpp-types": "^3.0.0",
